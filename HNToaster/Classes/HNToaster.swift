@@ -34,7 +34,7 @@ public class Toaster {
         if let toastFont = font {
             toastLabel.font = toastFont
         } else {
-            toastLabel.font = UIFont.systemFont(ofSize: 20)//UIFont(name: "Montserrat-Light", size: 16.0)
+            toastLabel.font = UIFont.systemFont(ofSize: 24)
         }
         toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         toastLabel.textColor = UIColor.white
