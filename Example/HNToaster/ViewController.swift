@@ -48,8 +48,8 @@ class ViewController: UIViewController {
         the toast's frame
         and the message's font.
         """
-        let toastFrame: CGRect = CGRect(x: 10, y: self.view.bounds.height - 120, width: self.view.bounds.width - 20, height: 90)
-        let messageFont: UIFont = UIFont.boldSystemFont(ofSize: 24)
+        let toastFrame: CGRect = CGRect(x: 10, y: self.view.bounds.height - 150, width: self.view.bounds.width - 20, height: 120)
+        let messageFont: UIFont = UIFont.italicSystemFont(ofSize: 32)
         Toaster.toast(onView: self.view, message: message2, frame: toastFrame, font: messageFont)
     }
     
